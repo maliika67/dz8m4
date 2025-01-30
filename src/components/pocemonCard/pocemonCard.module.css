@@ -1,0 +1,46 @@
+.pokemon_card {
+	border: 1px solid white;
+	border-radius: 8px;
+	width: 340px;
+	height: 274px;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.pokemon_block {
+	width: 316px;
+	height: 244px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.pokemon_block p {
+	font-size: 24px;
+	font-weight: 700;
+	margin-bottom: 12px;
+}
+
+.pokemon_block button {
+	border: none;
+	height: 42px;
+	width: 316px;
+	border-radius: 8px;
+	background: rgba(219, 0, 255, 0.85);
+}
+
+.pokemon_block button a {
+	font-size: 14px;
+	font-weight: 400;
+	text-decoration: none;
+	color: white;
+}
+
+
+.pokemon_block img {
+	width: 120px;
+	height: 120px;
+}
