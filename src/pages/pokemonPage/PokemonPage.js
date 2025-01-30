@@ -10,7 +10,7 @@ export default function PokemonPage() {
 	const limit = 12
 	const page = offset / limit + 1
 	const URL = 'https://pokeapi.co/api/v2/pokemon/'
-
+	console.log(123)
 	useEffect(() => {
 		axios.get(`${URL}?limit=${limit}&offset=${offset}`).then((response) => {
 			setPokemon(response.data.results)
